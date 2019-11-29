@@ -1,0 +1,16 @@
+{
+	"name": "@cfware/travis-ci",
+	"version": "0.0.0",
+	"private": true,
+	"description": "My travis-ci shared configurations",
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/travis-ci.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/travis-ci/issues"
+	},
+	"homepage": "https://github.com/cfware/travis-ci"
+}
