@@ -7,8 +7,19 @@ under your control.
 ## All supported node.js majors on each OS without npm caching
 
 ```yml
+version: ~> 1.0
 import:
   - cfware/travis-ci:node-supported.yml
+  - cfware/travis-ci:os-all.yml
+  - cfware/travis-ci:npm-no-cache.yml
+```
+
+## Node.js with unflagged ESM support on each OS without npm caching
+
+```yml
+version: ~> 1.0
+import:
+  - cfware/travis-ci:node-esm.yml
   - cfware/travis-ci:os-all.yml
   - cfware/travis-ci:npm-no-cache.yml
 ```
@@ -16,6 +27,7 @@ import:
 ## Firefox and Chrome with latest node.js
 
 ```yml
+version: ~> 1.0
 import:
   - cfware/travis-ci:node-latest.yml
   - cfware/travis-ci:browsers.yml
